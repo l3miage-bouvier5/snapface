@@ -10,21 +10,21 @@ export class FaceSnapService {
           title: 'Archibald',
           description : 'Mon meilleur ami depuis tout petit',
           createdDate : new Date(),
-          snaps: 0,
+          snaps: 165,
           imageUrl : "https://www.referenseo.com/wp-content/uploads/2019/03/image-attractive.jpg"
         },
        {  id:2,
           title: 'Three Rock Mountain',
           description : 'Un endroit magnifique pour les randonnées',
           createdDate : new Date(),
-          snaps: 0,
+          snaps: 1732,
           imageUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Olympus_Jan_2003_337w.jpg/272px-Olympus_Jan_2003_337w.jpg"
         },
         { id:3,
           title: 'un bon repas',
           description : 'Mmmmmh que c\'est bon',
           createdDate : new Date(),
-          snaps: 0,
+          snaps: 237,
           imageUrl : "https://tse4.mm.bing.net/th?id=OIP.Pqowhn9fvzNJy0FmfVRqnAHaEo&pid=Api",
           location:'Paris'
         }

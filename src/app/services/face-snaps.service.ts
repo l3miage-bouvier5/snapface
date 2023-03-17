@@ -60,4 +60,14 @@ export class FaceSnapService {
             throw new Error("SnapFace not found");
         }
       }
+
+      addFaceSnap(formValue : {title: string, description : string, imageUrl : string, location : string}) : void{
+       const faceSnap = {
+        ...formValue,
+        snaps : 0,
+        createdDate : new Date(),
+        id : this.faceSnaps[this.faceSnaps.length - 1].id + 1
+       }
+       this.faceSnaps.push(faceSnap)
+      }
 }
